@@ -28,7 +28,6 @@
 //     Pardo,
 //     Indigena
 // }
-
 // let minhaEtnia: Etnia = Etnia.Preto
 // console.log(minhaEtnia)
 
@@ -52,3 +51,23 @@
 //     idade: 0
 // }
 // console.log(usuario)
+
+//Never 
+function falha(msg: string): never {
+    throw new Error(msg)
+}
+
+const produto = {
+    nome: 'Maçã',
+    preco: 10,
+    validacao(){
+        if (this.nome.trim().length == 0 || !this.nome){
+            falha('Precisa ter um nome!')
+        }
+        if (this.preco <= 0){
+            falha('Preço inválido!')
+        }
+
+    }
+}
+produto.validacao()
