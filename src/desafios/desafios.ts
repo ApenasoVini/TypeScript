@@ -22,7 +22,6 @@ console.log(funcionario.baterPonto(10));
 console.log(funcionario.baterPonto(7));
 console.log(funcionario.supervisores);
 
-
 /*
     Desafio 2: Converter código Javascript em Typescript
 */
