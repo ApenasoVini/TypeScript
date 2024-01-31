@@ -17,13 +17,11 @@
 //     }
 //     return msg
 // }
-// /*
 //     Desafio 1: Criar um objeto funcionário com:
 //         - Array de strings com os nomes dos supervisores
 //         - Função de bater ponto que recebe a hora (number) e retorna uma string
 //             -> Ponto normal ( <= 8)
 //             -> Fora do horário ( > 8)
-// */
 // let funcionario: { supervisores: string[], baterPonto: (hora: number) => string } = {
 //     supervisores: ['Cléber', 'Ademar', 'Rúbio'],
 //     baterPonto(hora: number): string {
@@ -38,9 +36,7 @@
 // console.log(funcionario.baterPonto(10));
 // console.log(funcionario.baterPonto(7));
 // console.log(funcionario.supervisores);
-// /*
 //     Desafio 2: Converter código Javascript em Typescript
-// */
 // type ContaBancaria = {
 //     saldo: number,
 //     depositar: (valor: number) => void 
@@ -63,24 +59,24 @@
 // }
 // correntista.contaBancaria.depositar(3000)
 // console.log(correntista)
-// // String
+// String
 // let nome: string = 'Vini'
 // console.log(nome)
-// // Number
+// Number
 // let idade: number = 16
 // console.log(idade)
-// // Boolean
+// Boolean
 // let menor: boolean = true
 // console.log(menor)
-// // Array
+// Array
 // let lista: any[] = ["Maçã", "Banana"]
 // lista = [100, 400]
 // console.log(lista)
-// // Tuplas
+// Tuplas
 // let endereco: [string, number] = ["Av Principal", 99]
 // endereco = ["Rua Secundária", 123]
 // console.log(endereco)
-// // Enums
+// Enums
 // enum Etnia {
 //     Preto = 5,
 //     Branco,
@@ -90,24 +86,24 @@
 // }
 // let minhaEtnia: Etnia = Etnia.Preto
 // console.log(minhaEtnia)
-// // Any
+// Any
 // let carro: any = 'BMW'
 // carro = { marca: 'BMW', ano: 2019 }
 // console.log(carro)
-// // Funções
+// Funções
 // function multiplicar(n1: number, n2: number): number {
 //     return n1 * n2
 // }
 // let calculo: (x: number, y: number) => number
 // calculo = multiplicar
 // console.log(calculo(2, 5))
-// // Objetos
+// Objetos
 // let usuario: { nome: string, idade: number } = {
 //     nome: 'xxx',
 //     idade: 0
 // }
 // console.log(usuario)
-// // Never 
+// Never 
 // function falha(msg: string): never {
 //     throw new Error(msg)
 // }
