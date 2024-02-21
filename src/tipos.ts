@@ -40,23 +40,11 @@
 // function multiplicar(n1: number, n2: number): number {
 //     return n1 * n2
 // }
-
 // let calculo: (x: number, y: number) => number
 // calculo = multiplicar
 // console.log(calculo(2, 5))
 
 // Objetos
-// let usuario: { nome: string, idade: number } = {
-//     nome: 'xxx',
-//     idade: 0
-// }
-// console.log(usuario)
-
-// Never 
-// function falha(msg: string): never {
-//     throw new Error(msg)
-// }
-
 // const produto = {
 //     nome: 'Maçã',
 //     preco: 10,
@@ -71,3 +59,8 @@
 //     }
 // }
 // produto.validacao()
+
+// Never 
+// function falha(msg: string): never {
+//     throw new Error(msg)
+// }
