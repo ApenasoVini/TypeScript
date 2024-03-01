@@ -1,5 +1,5 @@
 //1
-function numeros(num1, num2) {
+function numeros(num1: number, num2: number): void {
     console.log(num1 + num2);
     console.log(num1 - num2);
     console.log(num1 * num2);
@@ -8,7 +8,7 @@ function numeros(num1, num2) {
 numeros(50, 20);
 
 //2
-function triangulos(lado1, lado2, lado3) {
+function triangulos(lado1: number, lado2: number, lado3: number): void {
     if (lado1 === lado2 && lado2 === lado3) {
         console.log("O triângulo é equilátero");
     }
